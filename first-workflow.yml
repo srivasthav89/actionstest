@@ -14,7 +14,7 @@ jobs:
       parallel-job-macos:
         runs-on: macos-latest
         steps:
-          - name: View SW Version
+          - name: View Software Version
             run: sw_vers
       dependant-job:
         runs-on: windows-latest
