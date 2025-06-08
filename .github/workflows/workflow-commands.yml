@@ -23,7 +23,7 @@ jobs:
           echo "::endgroup::"
 
       - name: Masking a value
-        run: "echo ::add-maks::Secret String"
+        run: echo "::add-maks::Secret String"
       - name: Echo a Secret
         run: echo "Secret String"
         
